@@ -1,0 +1,7 @@
+O que são arrow fu?
+
+As funções arrow, ou arrow functions, são uma forma mais concisa de escrever funções anônimas em JavaScript,
+ introduzidas no ES6. Elas têm uma sintaxe mais curta e não possuem seu próprio this, 
+arguments, super, ou new.target, o que as torna particularmente úteis em certas situações.
+
+

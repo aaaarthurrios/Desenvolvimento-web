@@ -1,0 +1,6 @@
+Explicação
+Bloco try: Contém o código que pode gerar uma exceção (no caso, tentando acessar e transformar obj.nome em maiúsculas).
+
+Bloco catch: Captura a exceção se ela ocorrer dentro do try. A variável e contém o objeto de erro.
+
+Instrução throw: Lança um novo erro com uma mensagem personalizada se uma exceção for capturada.

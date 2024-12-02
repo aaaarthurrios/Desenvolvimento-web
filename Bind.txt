@@ -1,0 +1,21 @@
+O que é o bind
+
+
+A função bind cria uma nova função que, quando chamada, tem seu this fixado ao valor fornecido. 
+Isso é útil para garantir que this tenha o valor correto, independentemente de como a função é chamada.
+
+
+Resumindo:
+this: Refere-se ao contexto de execução atual.
+
+bind: Garante que uma função seja chamada com o this de um objeto específico, fixando seu valor.
+
+
+
+
+
+
+Recomendações Gerais:
+Usar this é recomendado quando você está trabalhando diretamente dentro do contexto de um objeto ou classe, e não precisa preocupar-se com a mudança do contexto de execução.
+
+Usar bind é recomendado quando você precisa passar métodos como callbacks ou quando o contexto de execução pode mudar (por exemplo, em eventos ou temporizadores).
