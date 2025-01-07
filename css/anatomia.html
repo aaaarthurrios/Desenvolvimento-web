@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anatomia CSS</title>
+    <style>
+        /* Estilos gerais para a classe selector */
+        .selector {
+            color: black;
+            font-size: 30px;
+            text-align: center;
+            border: solid 5px navy; /* borda com cor navy e espessura de 5px */
+            font-family: Arial, Helvetica, sans-serif;
+            width: calc(100% - 40px); /* largura com cálculo */
+            background-color: rgb(255, 69, 0); /* cor de fundo, usando valores RGB */
+        }
+
+        /* Usando uma pseudo-classe para a classe .selector */
+        .selector:hover {
+            background-color: blue; /* Mudança de cor ao passar o mouse */
+
+        }
+        /* Usando um Pseudo-elemento */
+        .selector::first-letter {
+            font-size: 60px;
+            font-weight: bold;
+
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="selector">Conteúdo</div>
+</body>
+
+</html>
