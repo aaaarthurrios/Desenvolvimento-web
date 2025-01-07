@@ -1,0 +1,7 @@
+    Node.js usa require para carregar módulos.
+    Pode carregar módulos internos, externos ou locais.
+    Usado para organizar o código em partes reutilizáveis.
+
+Se estiver utilizando ES6 ou uma versão mais recente de JavaScript (com suporte para módulos),
+ pode usar a sintaxe import e export ao invés de require, mas o 
+require continua sendo amplamente utilizado no Node.js.
